@@ -27,9 +27,21 @@ A simple text to tell you to add an element.
 ![DAY 6](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c68fd799c940ab25820bbce18f7ac0d1c081ba8b/Dia%206/gif/GIFt%20version%206.gif)
 
 ### DAY 7
-##### When you enter the page
+A total change in the design created in FIGMA.
 ----
-A total change in the design created in FIGMA. We can see here the animations that are activated when entering the page.
+##### WHEN YOU ENTER THE PAGE
+We can see here the animations that are activated when entering the page. New colors, new typography, new assets.
 ![LOAD PAGE](https://github.com/StivenShiquito/Wish-List-Adviency/blob/463857d3d9fc8a53a6a7e2483fa4332dd14113f0/Dia%207/gifs/Load%20Page.gif)
 
-#####  
+##### ADD ELEMENTS TO THE LIST
+The element is created with the delete button, wich i will remove soon.
+![ADD ELEMENTS](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c74ec89ebc14408905b1a8c3cd9f4a7399723c76/Dia%207/gifs/Add%20elements.gif)
+
+##### EMPTY INPUT NOTIFICATION
+When you want to enter an empty element, an animation will be activated indicating that the field is empty.
+![Empty message](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c74ec89ebc14408905b1a8c3cd9f4a7399723c76/Dia%207/gifs/Empty%20message.gif)
+
+##### REPEATED WISH NOTIFICATION
+When you want to enter an repeated element, an animation will be activated indicating that the element is already in the list.
+![Repeated message](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c74ec89ebc14408905b1a8c3cd9f4a7399723c76/Dia%207/gifs/Repeated%20wish.gif)
+
