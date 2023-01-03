@@ -27,3 +27,4 @@ A simple text to tell you to add an element.
 ![DAY 6](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c68fd799c940ab25820bbce18f7ac0d1c081ba8b/Dia%206/gif/GIFt%20version%206.gif)
 
 ### DAY 7
+A new desing of the project
