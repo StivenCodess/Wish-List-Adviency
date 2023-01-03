@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(background/Background\ Pattern\ S.png) center repeat;
+  background-size: contain;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backdrop-filter: blur(0.7px);
+  color: white;
+}
+/*!LISTA!*/
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid aqua;
+  background: rgba(5, 7, 12, 0.75);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.card-list {
+  width: 90%;
+}
+
+.card-list-item {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(0, 193, 164); */
+  list-style: none;
+}
+
+.card-title {
+  letter-spacing: 7px;
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.card-list-text {
+  background-color: rgb(59, 59, 59);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  font-weight: 200;
+}
+
+.card-list-text:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/*!TRASH!*/
+
+.fa-trash {
+  font-size: 20px;
+}
+
+.fa-trash:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  color: #ff5f7c;
+}
+
+/*!FORMULARIO!*/
+
+.form {
+  /* border: 1px solid aliceblue; */
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-form {
+  outline: none;
+  background-color: rgb(59, 59, 59);
+  border: none;
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.form-input {
+  letter-spacing: 5px;
+  font-size: 13px;
+}
+
+::placeholder {
+  font-size: 13px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.form-btnAdd:hover {
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+}
+
+.form-input:focus {
+  border: 1px solid rgb(0, 255, 255);
+}
+
+/**DELETE ALL*/
+.btn-deleteALL:hover {
+  background-color: #ff5f7c;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+/** WISH LIST */
+.wish-list-deff {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 90%;
+  background: #f9f8ee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 30px 0;
+  overflow: hidden;
+
+  /*todo display: none; */
+}
+
+.wish-list-one {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*todo display: none; */
+}
+
+.wish-list {
+  max-height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  /*TODO display: none; */
+}
+
+.wish-item {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-family: var(--londrina);
+  font-weight: 250;
+  border-bottom: 1px solid black;
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.wish-item-btn-del {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  /* transition: 1s transform; */
+  /*TODO display: none; */
+}
+/** -------------------------------------------------- */

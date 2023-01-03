@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(background/Background\ Pattern\ S.png) center repeat;
+  background-size: contain;
+  font-family: "Roboto", "sans-serif";
+  backdrop-filter: blur(0.7px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  background: rgba(5, 7, 12, 0.75);
+}
+
+.card-title {
+  letter-spacing: 7px;
+  margin: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.card-list {
+  width: 90%;
+}
+
+.card-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.text {
+  font-weight: 200;
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(59, 59, 59);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+.fa-trash {
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.form-style {
+  background-color: rgb(59, 59, 59);
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  font-family: "Roboto", "sans-serif";
+}
+
+.form-input {
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+.form-btn {
+  letter-spacing: normal;
+}
+
+.deleteall-btn {
+  margin: 10px;
+}
+
+.deleteall-btn:hover {
+  cursor: pointer;
+  background-color: #ff5f7c;
+  color: black;
+}
+
+.dummy {
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+}
+
+.dummy:hover {
+  transition: opacity;
+  -webkit-transition: opacity;
+  -moz-transition: opacity;
+  -ms-transition: opacity;
+  -o-transition: opacity;
+}
+
+::placeholder {
+  font-size: 13px;
+  color: white;
+  letter-spacing: 7px;
+}
+
+.form-btn:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.form-input:focus {
+  border: 1px solid rgb(0, 255, 255);
+}
+
+.fa-trash:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  color: #ff5f7c;
+  cursor: pointer;
+}
+
+.text:hover {
+  background-color: aqua;
+  color: black;
+}

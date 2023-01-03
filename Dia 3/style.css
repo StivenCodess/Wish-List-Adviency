@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(background/Background\ Pattern\ S.png) repeat center;
+  background-size: contain;
+  font-family: "Roboto", "sans-serif";
+  backdrop-filter: blur(1.5px);
+  overflow: hidden;
+  color: white;
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-align: center;
+  background: rgba(5, 7, 12, 0.75);
+}
+
+.card-title {
+  letter-spacing: 3px;
+}
+
+.card-list {
+  padding: 0;
+  width: 80%;
+  font-weight: 200;
+}
+
+.card-list-item {
+  padding: 5px;
+  list-style: none;
+  margin: 13px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-list-item:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.form {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.form-input {
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  padding: 10px;
+  background-color: rgb(59, 59, 59);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", "sans-serif";
+  font-size: 13px;
+}
+
+.form-btn {
+  margin: 0;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: rgb(59, 59, 59);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", "sans-serif";
+}
+
+.form-btn:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.form-input:focus {
+  border: 1px solid rgb(0, 155, 155);
+}
+
+::placeholder {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 3px;
+}

@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", "sans-serif";
+  color: white;
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(background/Background\ Pattern\ S.png) center;
+  background-size: contain;
+  overflow: hidden;
+  backdrop-filter: blur(1.5px);
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background: rgba(5, 7, 12, 0.75);
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  font-weight: 200;
+}
+
+.card-list-item {
+  background-color: rgb(59, 59, 59);
+  border-radius: 5px;
+  margin: 13px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.card-list-item:hover {
+  background-color: aqua;
+  color: black;
+}
