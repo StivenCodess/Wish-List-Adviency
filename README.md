@@ -15,7 +15,7 @@ I added functionality with Javascript. Implement a form to add items to the list
 ![DAY 3](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c68fd799c940ab25820bbce18f7ac0d1c081ba8b/Dia%203/gifs/GIFt%20version%203%20-4.gif)
 
 ### DAY 4
-An added icon to remove item.
+An added icon to remove item.                                                 
 ![DAY 4](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c68fd799c940ab25820bbce18f7ac0d1c081ba8b/Dia%204/gif/GIFt%20version%204.gif)
 
 ### DAY 5
