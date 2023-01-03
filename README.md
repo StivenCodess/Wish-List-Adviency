@@ -27,4 +27,5 @@ A simple text to tell you to add an element.
 ![DAY 6](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c68fd799c940ab25820bbce18f7ac0d1c081ba8b/Dia%206/gif/GIFt%20version%206.gif)
 
 ### DAY 7
-A new desing of the project
+A total change in the design created in FIGMA. We can see here the animations that are activated when entering the page.
+![LOAD PAGE](https://github.com/StivenShiquito/Wish-List-Adviency/blob/463857d3d9fc8a53a6a7e2483fa4332dd14113f0/Dia%207/gifs/Load%20Page.gif)
