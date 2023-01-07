@@ -1,0 +1,29 @@
+.form-btn-del-all {
+  display: flex;
+  justify-content: center;
+  width: 271px;
+  height: 59px;
+  margin: 20px auto;
+  /*todo display: none; */
+}
+
+.btn-del-all {
+  border: none;
+  background-color: var(--red);
+  border-radius: 50px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-family: var(--pacifico);
+  color: rgba(255, 255, 255, 0.6);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+  transition: transform 1s;
+}
+.btn-del-all:hover {
+  transform: scale(105%);
+}
+
+.btn-del-all-NONE {
+  display: none;
+}

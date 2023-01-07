@@ -2,8 +2,11 @@
 .container-form {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
+  /* margin-top: 20px; */
   gap: 10px;
+  /*TODO QUITAR BORDE  */
+  /* border: 1px solid tomato; */
 }
 
 .forma {
@@ -24,6 +27,11 @@
   height: 55px;
   color: white;
   cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.form-input:hover {
+  transform: scale(105%);
 }
 
 .form-input::placeholder {
@@ -36,6 +44,10 @@
   width: 75px;
   height: 55px;
   cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.form-btn-add:hover {
+  transform: scale(105%);
 }
 
 .form-input-num {
@@ -48,6 +60,10 @@
 .form-input-num::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.form-input-num:focus {
+  color: white;
 }
 
 .fa-play {
@@ -69,7 +85,7 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 8px;
-  margin-top: -19px;
+  /* margin-top: -19px; */
 }
 
 .form-btn-add {
