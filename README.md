@@ -52,3 +52,18 @@ When you want to enter an repeated element, an animation will be activated indic
 ![Repeated message](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c74ec89ebc14408905b1a8c3cd9f4a7399723c76/Dia%207/gifs/Repeated%20wish.gif)
 
 ---------------
+
+### DAY 8
+
+One complicated day, I modularized all the code. All this to practice the "Imports and Exports" of Javascript. I Improved the feel of the buttons by giving them animations, just like Santas.
+
+![animations](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c509fffa08427dd2712f2bc815aab369aecaf887/Dia%208/gifs/animations.gif)
+
+---------------
+
+### INPUT NUMBER
+
+And here the important thing of the day, which was to add the number of gifts.         
+![input number](https://github.com/StivenShiquito/Wish-List-Adviency/blob/c509fffa08427dd2712f2bc815aab369aecaf887/Dia%208/gifs/Input%20Number.gif)
+
+---------------
