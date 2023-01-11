@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fa45f694d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Wish List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Londrina+Solid:wght@100;300;400;900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/messages.css">
+    <link rel="stylesheet" href="styles/santaAddMore.css">
+    <link rel="stylesheet" href="styles/santaGreeting.css">
+    <link rel="stylesheet" href="styles/btnDelAll.css">
+    <link rel="stylesheet" href="styles/wishList.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/formInput.css">
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Chritsmas <br>W<span>i</span>s<span>h</span> L<span>i</span>s<span>t</span></br></h1>
+
+      <div class="container-message-alert">
+        <div class="message-alert bounce-in-left repeat-wishh" style="display: none;">
+          <div class="message-alert-content repeat-wish">
+            <img class="message-alert-icon" src="assets/icons8-error-100.png" alt="message of error">
+            <p>Don't repeat wishes!</p>
+          </div>
+        </div>
+
+        <div class="message-alert bounce-in-left no-wishh" style="display: none;">
+          
+          <div class="message-alert-content no-wish">
+            <img class="message-alert-icon" src="assets/icons8-error-100.png" alt="message of error">
+            <p>You didn't enter any wish!</p>
+          </div>
+        </div>
+      </div>
+
+      <article class="container-bg">
+        <section class="container">
+          <form class="container-form fade-in-top">
+              <input  class="forma form-input" placeholder="Insert any wish" type="text">
+              <div class="container-input-num">
+                  <i class="fa-solid fa-play fa-playUp"></i>
+                  <input  class="forma form-input-num" min="1" max="10" value="1" type="number">
+                  <i class="fa-solid fa-play fa-playDown"></i>
+              </div>
+              <button class="forma form-btn-add" >
+                  <img src="assets/icons8-regalo-48.png" alt="gift">
+              </button>
+          </form>
+
+            <section class="container-list">
+              <ul id="list" class="list-one"> 
+              </ul>
+            </section>
+
+            
+              <form class="form-btn-del-all scale-in-center">
+                <button class="btn-del-all">Delete all</button>
+              </form>
+            
+              <section class="container-santas">
+
+                <div class="container-santa-greeting ">
+                  <div class="container-text slide-in-left">
+                      <p>You didn't insert any wish.</p>
+                  </div>
+                    <img class="santaGreeting slide-in-bottom" src="assets/Santa Claus Saludando.png" alt="Santa Claus">
+                </div>
+
+                <div class="container-santaSign  slide-in-bottom ">
+                  <img class="santaSign" src="assets/Santa Claus cartel.png" alt="Santa Claus with message">
+                  <p class="add-more">Add More!</p>
+                </div>
+              </section>
+        </section>
+      </article>
+    </main>
+    <script src="scripts/main.js" type="module"></script>
+  </body>
+</html>
+
+
+<!-- <li id="container-wish" class="container-wish-one">
+                  <div class="wish-amount">
+                    <p>5</p>
+                  </div>
+                  <div class="container-item-wrap">
+                    <div class="wish slide-in-left-rapid">
+                      <p>Monitor</p>
+                      <img src="assets/icons8-desechos-de-papel-96.png" alt="">
+                    </div>
+                  </div>
+                </li>  -->
