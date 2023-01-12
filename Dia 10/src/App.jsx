@@ -1,24 +1,25 @@
+import Form from "./Form";
 import Title  from "./Title";
 
 export default function App (){
     return(
         <>
-        <body className="bg-amber-50 w-screen h-screen flex flex-col  align-middle"> 
+        
 
-            <header className="flex justify-center">
-                <h1 className="text-rose-500 text-5xl text-center p-7">CHRISTMAS            
+            <header className="h-50 min-h-fit flex justify-center">
+                <h1 className="text-rose-500 text-6xl text-center p-4">CHRISTMAS            
                 <br/> 
-                <Title text = "WISH"/> <Title text = "LIST"/>
+                <Title text="WISH"/> <Title text="LIST"/>
                 </h1>
             </header>
 
-            <main className="w-72 h-72 bg-slate-500 flex justify-center align-middle">
-                <article className="">
-                    
+            <main className="w-[30rem] h-[40rem] bg-[url('./src/assets/container-bg.png')] rounded-3xl p-8">
+                <article className="w-full h-full bg-white rounded-xl flex flex-col items-center">
+                    <Form></Form>   
                 </article>
             </main>
 
-        </body>
+    
         </>
     );
 }

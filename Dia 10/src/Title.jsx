@@ -8,9 +8,7 @@ export default function Title({text}){
                     ? <span className="text-cyan-300">{letra}</span>
                     : <span>{letra}</span>
                     )
-                
             })
-            
         }
         </>
     )
